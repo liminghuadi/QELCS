@@ -1,1 +1,2 @@
 # QELCS
+Quality‑aware Elite Learning‑driven Complementary Search for Feature Selection in Microarray‑based Cancer Classification(QELCS). There are some caveats to running this code: 1、To illustrate, only a subset of the complete dataset is provided here as an example. The entire dataset can be obtained from http://featureselection.asu.edu. 2、After downloading the raw dataset from a public database, preprocessing steps should be performed to convert the dataset into feat and label format for algorithm readability.
