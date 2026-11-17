@@ -11,7 +11,7 @@ switch opts.mode
     case 'paper'
         opts.N = 100;
         opts.T = 100;
-        opts.runNum = 5;
+        opts.runNum = 10;
     case 'quick'
         opts.N = 10;
         opts.T = 10;
