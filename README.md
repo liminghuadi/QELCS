@@ -26,7 +26,7 @@ where error is the fraction of misclassified samples pooled across the inner val
 Each repeat starts by generating all outer and inner partitions from its random seed. Within each outer training set, QELCS ranks features and searches for a subset using five-fold inner cross-validation. The classifier then predicts the held-out outer fold using the selected subset. Pooling the ten outer folds yields one held-out prediction per sample per repeat.
 | Configuration | Default datasets | Particles | Iterations | Repeats | Outer / inner folds |
 | --- | --- | ---: | ---: | ---: | ---: |
-| 'paper' | 21 benchmarks | 100 | 100 | 5 | 10 / 5 |
+| 'paper' | 21 benchmarks | 100 | 100 | 10 | 10 / 5 |
 | 'quick' | Colon | 10 | 10 | 1 | 10 / 5 |
 
 The five formal repeats use seeds 43 through 47 with the MATLAB `twister` generator. Search parameters are defined in [parameters.m](parameters.m).
