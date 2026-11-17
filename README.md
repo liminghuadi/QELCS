@@ -95,4 +95,3 @@ The verifier uses 'isequaln' to compare seeds, partition indices, selected featu
 | [SU_TOOL.m](SU_TOOL.m) | Symmetrical uncertainty computed from quantile-based feature bins |
 | [jFitnessFunction.m](jFitnessFunction.m) | Cross-validated subset evaluation |
 | [jknn.m](jknn.m) | Deterministic Euclidean nearest-neighbor classification |
-| [verify_reproduction.m](verification/verify_reproduction.m) | Comparison with archived Case A results |
