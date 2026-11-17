@@ -29,7 +29,7 @@ Each repeat starts by generating all outer and inner partitions from its random 
 | 'paper' | 21 benchmarks | 100 | 100 | 10 | 10 / 5 |
 | 'quick' | Colon | 10 | 10 | 1 | 10 / 5 |
 
-The five formal repeats use seeds 43 through 47 with the MATLAB `twister` generator. Search parameters are defined in [parameters.m](parameters.m).
+The five formal repeats use seeds 43 through 52 with the MATLAB `twister` generator. Search parameters are defined in [parameters.m](parameters.m).
 
 ### Running the benchmarks
 ```matlab
@@ -49,7 +49,7 @@ The [DataSet](DataSet/) directory contains 16 MAT files. The default benchmark l
 
 ## Results
 
-The repository includes the five-repeat summary for all 21 benchmarks. Accuracy values in the CSV files are expressed as proportions. [Benchmark summary](results/paper/summary.csv)
+The repository includes the five-repeat summary for all 16 benchmarks. Accuracy values in the CSV files are expressed as proportions. [Benchmark summary](results/paper/summary.csv)
 
 | Per-repeat metric | Definition |
 | --- | --- |
@@ -68,7 +68,7 @@ fitnessCurve = r.datasetResult.convergenceCurves{1, 1};
 
 ## Reproducibility
 
-The archived verification report documents full reruns of Colon and nci9 against the saved Case A reference. The values below are means over five repeats. [Verification report](results/verification/verification.csv)
+The archived verification report documents full reruns of Colon and nci9 against the saved Case A reference. The values below are means over 10 repeats.(results/verification/verification.csv)
 
 | Dataset | Outer test accuracy | Mean selected features | Reference comparison |
 | --- | ---: | ---: | --- |
