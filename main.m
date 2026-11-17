@@ -8,7 +8,7 @@ if nargin < 1 || isempty(mode), mode = 'paper'; end
 opts = parameters(mode);
 if nargin < 2 || isempty(datasetNames)
     datasetNames = ["Colon","lung","Leukemia1", "9_Tumors", "Prostate_GE", "Leukemia", "ALLAML", "nci9",...
-        "Leukemia2", "CLL-SUB-111", "11_Tumors", "MLL_3", "Lung_Cancer", "GLI_85", "BreastCancer1", "BreastCancer2",];
+        "Leukemia2", "CLL-SUB-111", "11_Tumors", "MLL_3", "Lung_Cancer", "GLI_85", "BreastCancer1", "BreastCancer2"];
     if strcmp(opts.mode, 'quick'), datasetNames = "Colon"; end
 end
 if nargin < 3 || isempty(runNum), runNum = opts.runNum; end
